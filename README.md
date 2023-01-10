@@ -19,13 +19,13 @@ Two ncurses window will spawn:
 1. Using arrow keys, we will move a spot in a window to simulate the perception of the camera. The spot that we will see by moving will produce the creation of a realistic RGB image. By pressing a key, or by operating the mouse on a button, a snapshot of the image memory will be saved on a .bmp file.
 2. In a second ncurses window, also 80 x 30, the position trace of the center of the image will be shown.
 
-- The function 'paint_background()' is a trick to avoid this behavior
+- The function 'paint_background()' is a trick to avoid this behavior by painting all the image of white
 
 ![image copia](https://user-images.githubusercontent.com/107572039/211508543-4ce67da4-a9ac-41ba-a4b5-51c5147a7a7d.jpg)
 
 
 
-- The function 'draw_circle()' simply draw a .bmp circle
+- The function 'draw_bmp()' simply draw a bmp circle
 
 
 
@@ -69,5 +69,7 @@ then to run it:
      ./run.sh
 
 
+# Problems
+- In the second ncurses window, the position of the center of the circle is shown in real time but remain the trace of the path made, I wasn't able to fix it
 
 
