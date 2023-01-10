@@ -1,4 +1,4 @@
-# Create fonder
+# Create folder
 mkdir bin
 mkdir out
 
