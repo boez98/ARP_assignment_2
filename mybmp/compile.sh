@@ -1,3 +1,7 @@
+# Create fonder
+mkdir bin
+mkdir out
+
 # Compile process A
 gcc src/processA.c -lncurses -lbmp -lm -o bin/processA &
 
